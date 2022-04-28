@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
 }
-
+/*body*/
+body{
+    background-color:rgb(84, 200, 80);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 /*navegador*/
 .navegador{
 display: flex;
@@ -36,6 +40,7 @@ nav ul li:hover{
     height: 400px;
     /*background: -moz-linear-gradient(rgb(84, 209, 84), rgb(1, 247, 42));*/
     background-image:url(/img/imagendefondoh1.jpg) ;
+    background-size: 100%;
     align-content: center;
 }
 .cabezare a {
@@ -49,7 +54,7 @@ nav ul li:hover{
 }
 
 .parrafo{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     font-size: 40px;
     text-align: center; 
     padding: 10px; 
@@ -68,4 +73,10 @@ nav ul li:hover{
 }
 
 
-/**/
+/*carrucel*/
+.carrucel {
+    margin:30px;
+    padding: 20px;
+    height: 500px;
+    background-color: aquamarine;
+}
