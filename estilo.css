@@ -40,8 +40,8 @@ nav ul li:hover{
     height: 400px;
     /*background: -moz-linear-gradient(rgb(84, 209, 84), rgb(1, 247, 42));*/
     background-image:url(./img/imagendefondoh1.jpg) ;
-    background-size: 100%;
-    align-content: center;
+    background-size: 100% 100%;
+      
 }
 .cabezare a {
     align-content:center;
@@ -80,3 +80,44 @@ nav ul li:hover{
     height: 500px;
     background-color: aquamarine;
 }
+
+/*centro*/
+.centro{
+    display:block;
+    justify-content:center;
+}
+
+/*izquierda*/
+.izquierda{
+    display: flex;
+    justify-content: center;
+}
+.izquierda div {
+    text-align: center;
+}
+
+.izquierda p{
+
+    font-size: small;
+   
+    padding: 20px;
+}
+/*Banner*/
+.banner{
+    height: 200px;
+    padding: 20px;
+    margin: 25px;
+    background-color: aquamarine;
+
+}
+
+
+/*footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
