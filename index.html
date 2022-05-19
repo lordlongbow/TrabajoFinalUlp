@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <title>VerdeWeb</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <script src="Script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="contenedor">
         <header class="header">
@@ -33,7 +36,7 @@
                             <a href="#Abejas" class="nava">Abejas</a>
                         </li>
                         <li>
-                            <a href="#" class="nava">Contacto</a>
+                            <a href="Contacto.html" class="nava">Contacto</a>
                         </li>
                     </ul>
                 </nav>
@@ -42,26 +45,28 @@
             <div class="cabezera">
                 <h1 class="titulo">Verde Web</h1>
                 <p class="parrafo">La naturaleza se complase con la simplicidad de lo complejo</p>
-             
+
             </div>
         </header>
         <div class="carrucel">
-           
-                <img src="/img/Arboles (3).png" alt="imagen">
-                <div class="botones">
-                      <input type="button" value="izquierda">
-               <input type="button" value="derecha">
-                </div>
-             
-           
+            <div>
+                <img src="/img/Arboles (1).png" id="carrucelpic" alt="imagen">
+            </div>
+
+            <div class="botones">
+                <input type="button" onclick="izquierda()" id="izquierda" value="<">
+                <input type="button" onclick="derecha()" id="derecha" value=">">
+            </div>
+
+
         </div>
         <div class="centro">
             <div class="izquierda">
-           
+
                 <div class="Colmena" id="Colmena">
                     <h2 class="titarticulo">Colmena</h2>
                     <p class="descripcion">Mantenimiento y cuidados de una colmena</p>
-                  <a href="Colmena.html">Leer mas</a>
+                    <a href="Colmena.html">Leer mas</a>
                 </div>
                 <div class="Arboles" id="Arboles">
                     <h2 class="titarticulo">Arboles</h2>
@@ -78,16 +83,16 @@
                     <p class="descripcion">Pequeñas polinisadoras del mundo</p>
                     <a href="Abejas.html">Leer mas</a>
                 </div>
-             
-    
+
+
             </div>
             <div class="banner">
-                <h2 class="titulobanner">Banner a determinar</h2> 
-                <p>Parrafo a llenar con algo</p>    
-                 </div>
+                <h2 class="titulobanner">Banner a determinar</h2>
+                <p>Parrafo a llenar con algo</p>
+            </div>
             <div class="derecha">
                 <aside class="aside"></aside>
-            </div>    
+            </div>
         </div>
 
         <footer class="footer" id="Cotacto">
@@ -96,4 +101,5 @@
         </footer>
     </div>
 </body>
+
 </html>
