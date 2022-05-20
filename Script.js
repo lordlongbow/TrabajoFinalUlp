@@ -1,10 +1,11 @@
 var imagenes=[];
 
-imagenes[0]= "Arboles (1)"
-imagenes[1]= "colmena (7)"
-imagenes[2]= "Abejas (7)"
-imagenes[3]= "colmena (10)"
-imagenes[4]= "Arboles (3)"
+imagenes[0]= "img/Arboles (1).png"
+imagenes[1]= "img/colmena (7).jpg"
+imagenes[2]= "img/Abejas (7).png"
+imagenes[3]= "img/colmena (10).jpg"
+imagenes[4]= "img/Arboles (3).png"
+
 var foto;
 var cont = 0;
 
@@ -31,5 +32,6 @@ function izquierda() {
 }
 
 function iniciar() {
-    foto = document.getElementById(carrucelpic);
+    foto= document.getElementById("carrucelpic");
+    
 }

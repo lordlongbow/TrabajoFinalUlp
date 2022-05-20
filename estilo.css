@@ -43,7 +43,7 @@ nav ul li:hover {
     margin: 30px;
     padding: 20px;
     height: 500px;
-    background-image: url(./img/imagendefondoh1.jpg);
+    background-image: url(./img/imagendefondoh1.png);
     background-size: 100% 100%;
 
 }
@@ -166,9 +166,10 @@ padding: 50px;
    align-items: flex-start;   
 }
 /*formulario*/
-.formulario{
-    height: 50%;
-    width: 90%;
+.formulario input{
+ display:block;
+ text-align: center;
+
 }
 
 
