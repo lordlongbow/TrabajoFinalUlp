@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+
     <title>VerdeWeb</title>
 </head>
 
@@ -42,28 +43,49 @@
         <p class="parrafo">Para Conocernos Mejor</p>
        </div>
        <hr>
-            <form id="formulario" class="formulario">
-             
-                <label>Nombre</label>
-                <input name="nombre" required="">
+       <div class="formulariofondo">
+        <form action="#" name="formularioverde" id="formulp" onsubmit="return validar()" class="formulario" method="get">
+            <div class="nombre">
+                <label for="nombre" class="nombre">Nombre</label>
+                <input id="nombre" type="text" placeholder="Ingresa tu nombre aqui">
+            </div>
+            <div class="nombre">
+                <label for="telefono" class="telefono">Telefono</label>
+                <input id="telefono" type="text" placeholder="Ingresa tu telefono aqui">
+            </div>
+            <div class="nombre">
+                <label for="email" class="correo">Email</label>
+                <input id="email" type="email" placeholder="tuemail@tucorreo.com">
+            </div>
+            <div class="like">
+                <div>   <p c>¿Te gusto nuestro sitio?</p>
+                </div>
+                <div class="likeit">
+                    <label for="Si">Si</label>
+                    <input type="radio" name="radio" id="Si" value="Si" class="radio">
+                    <label for="No">No</label>
+                    <input type="radio" name="radio" id="No" value="No" class="radio">
+                </div>
+              
+            </div>
+            <div class="texto">
+                <label for="comentarios" class="text_area">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" cols="20" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Enviar" class="btn" id="Submit">
+        </form>
+          
+            <div class="saludo" id="saludo"></div>
+           
+            <footer class="footer" id="Cotacto">
+                <p class="contato">No dejes de consultar nuestro formulario de Contacto click <a href="Contacto.html">AQUI</a> </p>
     
-                <label>Correo</label>
-                <input name="email">
-    
-                <label>Celular</label>
-                <input name="telefono">
-    
-                <label>Comentario</label>
-                <textarea name="comentario" rows="10" required=""></textarea>
-    
-                <button type="submit">Enviar</button>
-            </form>
-        
-        <footer class="footer" id="Cotacto">
-            <p class="contato">Mas informacion sobre el trabajo </p>
-            <p class="agradecimientos">Espacio reservado para agradecimietnos</p>
-        </footer>
+                <p class="agradecimientos">Aprobecho este espacio para agrecer a compañeros de estudio, docentes de la
+                    materia, vecinos y amigos que colaboraron con fotos y sugerencias para realizar este trabajo</p>
+                    <p class="mug">MUCHAS GRACIAS</p>
+            </footer>
     </div>
+    <script src="Script.js"></script>
 </body>
 
 </html>
