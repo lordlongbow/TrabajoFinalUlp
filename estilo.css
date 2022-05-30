@@ -71,31 +71,32 @@ nav ul li:hover {
 .carrucel {
     display: flex;
     margin: 25px;
-    justify-content:center;
+    justify-content: center;
     padding: 20px;
     height: 500px;
 }
-.boton{
-   color: black;
-   height: 50px;
-   width: 50px;
-   font-size: 40px;
-   margin: 200px 30px ;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  border-radius: 50% ;
-  border: none;
-  background-color: rgb(84, 200, 80);
+
+.boton {
+    color: black;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    margin: 200px 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50%;
+    background-color: rgb(84, 200, 80);
 
 }
-#carrucelpic{
-    margin:auto 5px;
+
+#carrucelpic {
+    margin: auto 5px;
     width: 600px;
     height: 400px;
 }
 
 /*mini articulos*/
-.miniart{
+.miniart {
     background-color: rgb(159, 250, 174);
     margin: 10px;
     padding: 25px;
@@ -104,6 +105,7 @@ nav ul li:hover {
     width: 200px;
     text-align: center;
 }
+
 /*centro*/
 .centro {
     display: block;
@@ -131,18 +133,22 @@ nav ul li:hover {
     background-color: aquamarine;
     border-radius: 20%;
 }
-.titulobanner{
+
+.titulobanner {
     text-align: left;
     margin: 10px;
 }
-.frase{
+
+.frase {
     text-align: center;
     margin: 30px;
 }
-.autorfrase{
+
+.autorfrase {
     text-align: right;
     padding-right: 200px;
 }
+
 /*cuerpos de articulos*/
 .a {
     text-align: center;
@@ -186,9 +192,9 @@ nav ul li:hover {
 
 /*formulario*/
 .formulario {
-   width: 500px;
-   margin: auto;
-   padding: 20px;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
 }
 
 .formulario input {
@@ -198,38 +204,45 @@ nav ul li:hover {
     padding: 10px;
     font-size: 1.3em;
 }
-.like{
+
+.like {
     display: flex;
 }
-.likeit{
+
+.likeit {
     margin: 0 20px;
-    display: flex;  
+    display: flex;
 }
-.likeit label{
-padding: 0 5px 0 50px;  
+
+.likeit label {
+    padding: 0 5px 0 50px;
 }
-   
-.formulario textarea{
+
+.formulario textarea {
     display: block;
     width: 100%;
     font-size: 1.3em;
 }
-.formulario button{
+
+.formulario button {
     display: block;
     width: 100%;
     margin-top: 5px;
     font-size: 1em;
 }
 
-#saludo{
+#saludo {
     visibility: hidden;
 }
-.saludo2{
-   background-color: yellowgreen;
-   color: black;
-   width: 500px;
-   margin: auto;
-   margin-top: 10px;
+
+.saludo2 {
+    visibility: visible;
+    padding: 10px;
+    width: 450px;
+    color: black;
+    text-align: center;
+    margin: 5px auto;
+    background-color: rgb(11, 143, 77);
 }
 
 /*footer*/
@@ -242,11 +255,11 @@ footer {
     text-align: center;
 }
 
-footer p{
+footer p {
     padding: 10px;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: antiquewhite;
 }
