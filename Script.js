@@ -42,6 +42,7 @@ var nombre = document.getElementById("nombre");
 var telefono = document.getElementById("telefono");
 var email = document.getElementById("email");
 var radios = document.getElementsByName("radio");
+var comentario = document.getElementById("comentarios")
 var formulario = document.getElementById("formulario");
 var array = [];
 
@@ -72,6 +73,7 @@ function validotelefono(){
 //debo validarlo por expresiones regulares preguntar el martes
     
     if(telefono.value== ""){
+        console.log("telefono no debe estar vacio");
 telefono.focus();
     telefono.style.border ="1px solid red"
 return false;
@@ -84,6 +86,7 @@ function validoemail(){
     //debo validarlo por expresiones regulares preguntar el martes
         
         if(email.value== ""){
+            console.log("pone el email");
     email.focus();
        email.style.border ="1px solid red"
     return false;
@@ -105,20 +108,22 @@ function validoradios() {
 
 }
 /*
-function crearDatos() {
-   contenedorcreado.innerHTML = "";
+function crearElementos() {
+   saludo.innerHTML = "";
     array?.forEach(aux => {
         let elemento = document.createElement("div");
         elemento.className= "creado2";
-      if (aux.seleccion == "Saluda" && aux.comentarios == "") {
-            elemento.innerHTML = "<p>" + aux.nombre + " Ha Saludado" + "</p>"
+      if (radios[1].checked && aux.comentarios == "") {
+            elemento.innerHTML = "<p>" "Hola "+ aux.nombre + " gracias por contactarte con nosotros ""</p>"   
 
-        } else if (aux.seleccion == "Saluda" && aux.comentarios != "") {
-            elemento.innerHTML = "<p>" + aux.nombre + " deja un mensaje: " + aux.comentarios + "</p>"
+        } else if (radios[0].checked && aux.comentarios != "") {
+            elemento.innerHTML = "<p>" "Hola " + aux.nombre + " Gracias por contactarte con nosotros y dejarnos un mensaje, tambien estamos contentos de que te guste nuestro sitio" "</p>"
+        } else if (radios[1].checked && aux.comentarios != "") {
+            elemento.innerHTML = "<p>" "Hola " + aux.nombre + " Gracias por contactarte con nosotros y dejarnos un mensaje ""</p>"
         } else {
             elemento.innerHTML = "<p>" + aux.nombre + " deja una sugerencia : " + aux.comentarios + "</p>"           
         }
-        contenedorcreado.appendChild(elemento)
+        saludo.appendChild(elemento)
     })
 }
 */
