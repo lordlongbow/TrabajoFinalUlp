@@ -83,8 +83,8 @@ function validonombre() {
 }
 
 function validotelefono() {
-    var telRex = /^\(?\d{2}\)?[\s\.-]?\d{4}[\s\.-]?\d{4}$/;
-    if (isNaN(telefono.value) || telefono.value == "" && !telRex.test(telefono.value)) {
+    var telRex = /^[(]?\d{3,6}[)]?[\d-\s.]{6,10}$/;
+    if (isNaN(telefono.value) || telefono.value == "" || !telRex.test(telefono.value)) {
         telefono.focus();
         telefono.style.border = "2px solid red"
         str = "Debes Escribir tu telefono";   
