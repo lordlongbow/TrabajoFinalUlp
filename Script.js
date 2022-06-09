@@ -1,10 +1,10 @@
 var imagenes = [];
 
-imagenes[0] = "https://lordlongbow.github.io/TrabajoFinalUlp/img/Arboles (1).png"
+imagenes[0] = "https://lordlongbow.github.io/TrabajoFinalUlp/img/Arboles (1).jpg"
 imagenes[1] = "https://lordlongbow.github.io/TrabajoFinalUlp/img/colmena (7).jpg"
-imagenes[2] = "https://lordlongbow.github.io/TrabajoFinalUlp/img/Abejas (7).png"
+imagenes[2] = "https://lordlongbow.github.io/TrabajoFinalUlp/img/Abejas (7).jpg"
 imagenes[3] = "https://lordlongbow.github.io/TrabajoFinalUlp/img/colmena (10).jpg"
-imagenes[4] = "https://lordlongbow.github.io/TrabajoFinalUlp/img/Arboles (3).png"
+imagenes[4] = "https://lordlongbow.github.io/TrabajoFinalUlp/img/Arboles (3).jpg"
 
 var foto;
 var cont = 0;
